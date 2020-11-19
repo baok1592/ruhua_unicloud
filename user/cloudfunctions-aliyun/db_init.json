@@ -1,0 +1,239 @@
+{
+	"admin": {
+		"data": [{
+			"Enable": 1,
+			"Pid": 0,
+			"adminName": "大管理",
+			"delete_date": "0",
+			"isAdminof": true,
+			"isGoods": true,
+			"isOrder": true,
+			"isText": true,
+			"password": "123456",
+			"username": "admin"
+		}],
+		"index": [{
+			"IndexName": "username",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "username",
+					"Direction": "1"
+				}],
+				"MgoIsUnique": true
+			}
+		}]
+	},
+	"article": {
+		"data": [{
+			"content": "testtesttesttesttesttest",
+			"create_date": "2020/3/23",
+			"delete_date": "2020/11/18",
+			"image": "https://s1.ax1x.com/2020/03/28/Gkl6ld.jpg",
+			"title": "测试数据1"
+		}]
+	},
+	"banner-list": {
+		"data": [{
+			"imgUrl": "https://api.ruhuashop.com//uploads/other/5df31035de0c5.png"
+		}]
+	},
+	"category": {
+		"data": [{
+			"Pid": 0,
+			"CategoryName": "美妆",
+			"CNickname": "美妆",
+			"thumbnail": "https://api.ruhuashop.com/uploads/other/5e05c67de0027.png",
+			"showOrhide": true,
+			"delete_date": "0"
+		}],
+		"index": [{
+			"IndexName": "sort",
+			"MgoKeySchema": {
+				"MgoIndexKeys": [{
+					"Name": "sort",
+					"Direction": "1"
+				}],
+				"MgoIsUnique": false
+			}
+		}]
+	},
+	"sort-nav": {
+		"data": [{
+			"imgUrl": "https://api.ruhuashop.com//uploads/other/5df30e7ec4b40.png",
+			"navName": "优惠券"
+		}]
+	},
+	"uni-id-users": {
+		"data": [{
+			"username": "17844344057",
+			"password": "03caebb36670995fc261a275d212cad65e4bbebd",
+			"register_date": 1600660776052,
+			"register_ip": "1.207.129.84",
+			"token": [
+				"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1ZjY4MjUyOGVkNjhjNTAwMDFiZDllM2YiLCJjbGllbnRJZCI6IjE4OTM5MDJkNmFlOTBiZDliMjk4NDFhMmU2YmZhODMzIiwiaWF0IjoxNjAwODMxODAwLCJleHAiOjE2MDA4MzE4MjB9.iE7vZEfnQxpGyY1CCjdyIBkbUZa3hfBjRqDQqHOfj-c"
+			],
+			"last_login_date": 1600831800105,
+			"last_login_ip": "1.207.132.97",
+			"login_ip_limit": []
+		}]
+	},
+	"uni-verify": {
+		"data": [],
+		"index": [{
+				"IndexName": "mobile",
+				"MgoKeySchema": {
+					"MgoIndexKeys": [{
+							"Name": "mobile",
+							"Direction": "1"
+						},
+						{
+							"Name": "code",
+							"Direction": "1"
+						}
+					],
+					"MgoIsUnique": false
+				}
+			},
+			{
+				"IndexName": "email",
+				"MgoKeySchema": {
+					"MgoIndexKeys": [{
+							"Name": "email",
+							"Direction": "1"
+						},
+						{
+							"Name": "code",
+							"Direction": "1"
+						}
+					],
+					"MgoIsUnique": false
+				}
+			}
+		]
+	},
+	"goods": {
+	    "data": []
+	},
+	"goods-list": {
+	    "data": [
+	        {
+	            "goodsId": 1,
+	            "imgUrl": "https://api.ruhuashop.com//uploads/other/5df1e952e489f.png",
+	            "bannerUrl": [
+	                {
+	                    "imgUrl": "https://api.ruhuashop.com//uploads/other/5df1e952e489f.png"
+	                },
+	                {
+	                    "imgUrl": "https://api.ruhuashop.com//uploads/other/5df1e952e60e1.png"
+	                }
+	            ],
+	            "goodsName": "百纯家具布艺沙发小户型客厅整装组合转角北欧简约现代出租房套装",
+	            "price": 1588,
+	            "spec": [
+	                {
+	                    "specId": 1,
+	                    "specLevel": "黑色",
+	                    "price": 1688,
+	                    "inventory": 110,
+	                    "specLevel1": [
+	                        {
+	                            "specidLv2": 1,
+	                            "specls": "大",
+	                            "price": 1688,
+	                            "inventory": 60
+	                        },
+	                        {
+	                            "specidLv2": 2,
+	                            "specls": "小",
+	                            "price": 1588,
+	                            "inventory": 50
+	                        }
+	                    ]
+	                },
+	                {
+	                    "specId": 2,
+	                    "specLevel": "白色",
+	                    "price": 1588,
+	                    "specLevel1": [],
+	                    "inventory": 30
+	                }
+	            ],
+	            "storeId": 1,
+	            "inventory": 30,
+	            "storeName": "测试一号店铺",
+	            "delete_date": "0",
+	            "isHot": true,
+	            "isNew": false,
+	            "isStop": true,
+	            "title": 1
+	        }
+	    ],
+	    "index": [
+	        {
+	            "IndexName": "title",
+	            "MgoKeySchema": {
+	                "MgoIndexKeys": [
+	                    {
+	                        "Name": "title",
+	                        "Direction": "1"
+	                    }
+	                ],
+	                "MgoIsUnique": true
+	            }
+	        }
+	    ],
+	    "schema": {
+	        "bsonType": "object",
+	        "required": [],
+	        "permission": {
+	            "read": false,
+	            "create": false,
+	            "update": false,
+	            "delete": false
+	        },
+	        "properties": {
+	            "_id": {
+	                "description": "ID，系统自动生成"
+	            }
+	        }
+	    }
+	},
+	"order": {
+	    "data": [
+	        {
+	            "uid": "5f682590b0c57e00013a783c",
+	            "outTradeNo": "1605592620a75de30d",
+	            "totalFee": 1,
+	            "goodsInOrder": [
+	                {
+	                    "id": "5fb3647a74defa0001a222a2",
+	                    "specId": "",
+	                    "price": 1,
+	                    "amount": 1,
+	                    "specidLv2": 1,
+	                    "createTime": "2020-11-17   13:56:58"
+	                }
+	            ],
+	            "status": 1,
+	            "payment_channel": "wxpay"
+	        }
+	    ],
+	    "index": [
+	        {
+	            "IndexName": "outTradeNo_",
+	            "MgoKeySchema": {
+	                "MgoIndexKeys": [
+	                    {
+	                        "Name": "outTradeNo",
+	                        "Direction": "1"
+	                    }
+	                ],
+	                "MgoIsUnique": true
+	            }
+	        }
+	    ]
+	},
+	"shopping-cart": {
+	    "data": []
+	}
+}

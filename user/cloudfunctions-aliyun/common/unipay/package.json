@@ -1,0 +1,15 @@
+{
+  "name": "unipay",
+  "version": "1.0.10",
+  "description": "unipay for uniCloud",
+  "main": "index.js",
+  "repository": {
+  
+  },
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {}
+}
