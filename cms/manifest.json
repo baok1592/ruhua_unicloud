@@ -1,6 +1,6 @@
 {
     "name" : "ruhua_unicloud_admin",
-    "appid" : "__UNI__2A997E4",
+    "appid" : "__UNI__71B1B39",
     "description" : "ruhua商城-管理端",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -89,7 +89,7 @@
         "template" : "template.h5.html",
         "router" : {
             "mode" : "history",
-            "base" : "/h5/"
+            "base" : "/cms/"
         }
     }
 }

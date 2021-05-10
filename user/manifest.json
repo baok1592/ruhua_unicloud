@@ -1,6 +1,6 @@
 {
     "name" : "ruhua_unicloud_user",
-    "appid" : "__UNI__8023C51",
+    "appid" : "__UNI__5D59FB9",
     "description" : "ruhua商城-用户端",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -71,5 +71,10 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
+    },
+    "h5" : {
+        "router" : {
+            "base" : "/h5/"
+        }
     }
 }
